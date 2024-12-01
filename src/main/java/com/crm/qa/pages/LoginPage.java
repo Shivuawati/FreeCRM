@@ -26,7 +26,7 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath="//span[.='Start Here']")
 	WebElement startHereButton;
 	
-	@FindBy(xpath="//span[.='Free CRM Software']")
+	@FindBy(xpath="//b[.='Coforge']")
 	WebElement logoText;
 	
 	//Initialization of Page Objects
