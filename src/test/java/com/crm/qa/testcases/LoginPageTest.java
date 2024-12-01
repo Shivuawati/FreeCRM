@@ -39,7 +39,8 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	@Test (priority = 2)
-	public void crmLogoTextTest() {
+	public void crmLogoTextTest() throws IOException {
+		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		boolean flag = loginPage.validateCRMLogo();
 		Assert.assertTrue(flag);
 	}

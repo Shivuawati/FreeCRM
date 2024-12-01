@@ -6,8 +6,8 @@
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
-          <include name="crmLogoTextTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
